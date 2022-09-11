@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt-get -y update
-
+sudo apt install apache2 -y
+systemctl status apache2
 # INSTALL NODEJS - ONLY FOR UBUNTU
 sudo apt install nodejs -y
 
